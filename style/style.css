@@ -1,50 +1,65 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url("img/img.jpg");
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/img.jpg");
 }
-nav{
-    height: 7vh;
-    background: transparent;
-    border-bottom: 1px solid #CED4DA;
-    display: flex;
-    background-color: rgba(222, 226, 230, 0.4);
-    justify-content: space-between;
+nav {
+  height: 7vh;
+  background: transparent;
+  border-bottom: 1px solid #ced4da;
+  display: flex;
+  background-color: rgba(222, 226, 230, 0.2);
+  justify-content: space-between;
 }
-header{
-    font-family: 'Commissioner', sans-serif;
-    font-size: 30px;
-    height: 100%;
-    width: auto;
-    margin-left: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header {
+  font-family: "Commissioner", sans-serif;
+  font-size: 30px;
+  height: 100%;
+  width: auto;
+  margin-left: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-header a{
-    text-decoration: none;
-        color: #212529;
+header a {
+  text-decoration: none;
+  color: #212529;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 30px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
 }
-li{
-    float: left;
+li {
+  float: left;
 }
-li a{
-    text-decoration: none;
-    color: #212529;
-    display: flex;
-    height: 100%;
-    width: auto;
-    align-items: center;
-    justify-content: center;
-    margin: 0 5vh 0;
-    font-size: 18px;
-  }
+li a {
+  text-decoration: none;
+  color: #212529;
+  display: flex;
+  height: 100%;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5vh 0;
+  font-size: 18px;
+  font-family: "Commissioner", sans-serif;
+}
+main {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 80px;
+    font-family: "Commissioner", sans-serif;
+    font-weight: bold;
+}
+main span{
+    
+}
