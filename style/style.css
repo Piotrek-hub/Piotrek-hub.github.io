@@ -53,7 +53,7 @@ button{
 }
 
 button:hover{
-  background-color: rgb(20, 20, 20);
+  background-color: #24252A;
   color: #edf0f1;
 }
 
@@ -76,6 +76,39 @@ footer{
 footer button{
   border-radius: 0px;
   margin-left: 100px;
+}
+
+.galeria{
+  width: 100%;
+  padding: 60px 0;
+  background: #e8eaeb;
+  margin: auto;
+  padding: 50px 20px;
+  height: 800px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.galeria h{
+  text-transform: uppercase;
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.border{
+  width: 90%;
+  height: 1px;
+  border-radius: 50px;
+  background-color: #b9babe;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.box{
+  max-height: 300px;
+  margin: 50px 20px;
 }
 
 
