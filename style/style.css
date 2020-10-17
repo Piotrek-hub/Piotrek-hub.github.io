@@ -71,6 +71,7 @@ footer{
   height: 80px;
   align-items: center;
   justify-content: space-between;
+  float: initial;
 }
 
 footer button{
@@ -78,7 +79,7 @@ footer button{
   margin-left: 100px;
 }
 
-.galeria{
+.content{
   width: 100%;
   padding: 60px 0;
   background: #e8eaeb;
@@ -89,7 +90,7 @@ footer button{
   letter-spacing: 10px;
 }
 
-.galeria h{
+.content h{
   text-transform: uppercase;
   color: #333;
   font-size: 30px;
@@ -103,12 +104,12 @@ footer button{
   border-radius: 50px;
   background-color: #b9babe;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .box{
   max-height: 300px;
-  margin: 50px 20px;
+  margin: 150px 20px;
 }
 
 
